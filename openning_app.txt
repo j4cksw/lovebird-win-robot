@@ -3,6 +3,6 @@ Library  AutoItLibrary
 
 *** Test Cases ***
 Should Have Correct Title
-	Run    C:\\lovebird\\main111.exe
+	Run    C:\\lovebird\\main.exe
 	Wait For Active Window    smartwStock
 	Win Close    smartwStock    ${EMPTY}
